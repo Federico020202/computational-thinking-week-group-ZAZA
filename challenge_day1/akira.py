@@ -1,2 +1,2 @@
-def return_akira_name(){
+def return_akira_name():
   return "Akira"
