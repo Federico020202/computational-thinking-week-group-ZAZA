@@ -11,6 +11,10 @@ def solution_station_7(input):
   for char in input
     is_in_dict = char in correspondance_dict
     if is_in_dict == True: 
-      result.append(
+      result.append(correspondance_dict(char))
+    else:
+      result.append(char)
+
+  return result
   
 
