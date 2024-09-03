@@ -19,7 +19,7 @@ def solution_station_2(date_string):
         weekday_name = date_object.strftime('%A')
         
         # Return the corresponding Japanese weekday
-        return japanese_weekdays[weekday_name]
+        return solution_station_2[weekday_name]
     
     except ValueError:
         return "Invalid date format. Please use YYYY-MM-DD."
