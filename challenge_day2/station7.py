@@ -7,6 +7,7 @@ correspondance_dict = {
 }
 
 def solution_station_7(input):
+  input = str(input) 
   result = []
   for char in input
     is_in_dict = char in correspondance_dict
@@ -15,6 +16,8 @@ def solution_station_7(input):
     else:
       result.append(char)
 
-  return result
+  solution = eval(result)
+
+  return solution
   
 
